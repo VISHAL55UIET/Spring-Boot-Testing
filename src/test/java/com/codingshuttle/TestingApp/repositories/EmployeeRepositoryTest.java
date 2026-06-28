@@ -19,7 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Import(TestContainerConfiguration.class)
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-class EmployeeRepositoryTest {
+class  EmployeeRepositoryTest {
 
     @Autowired
     private EmployeeRepository employeeRepository;
